@@ -1,5 +1,5 @@
 "use strict";
-// # Модуль 1. 
+// # Модуль 1.
 
 // ## Example 1 - Базові математичні операції
 
@@ -24,23 +24,23 @@
 
 // Напиши код який виводить в консоль округлення вверх / вниз.Використовуй методи`Math.floor()`,
 // `Math.ceil()` і`Math.round()`.
- const value = 27.5;
-console.log(Math.ceil(value));
-console.log(Math.floor(value));
-console.log(Math.round(value));
-console.log(Math.pow(value,3));
+//  const value = 27.5;
+// console.log(Math.ceil(value));
+// console.log(Math.floor(value));
+// console.log(Math.round(value));
+// console.log(Math.pow(value,3));
+
 
 // ## Example 5 - Шаблонні рядки
 
 // Склади фразу`A has B bots in stock`, де A, B - це змінні
 
-// ```js
 // const companyName = 'Cyberdyne Systems';
 // const repairBots = 150;
 // const defenceBots = 50;
-// const message = ``;
+// const message = `${'Cyberdyne Systems'} has ${repairBots + defenceBots} bots in stock`;
 // console.log(message); // "Cyberdyne Systems has 200 bots in stock"
-// ```
+
 
 // ## Example 6 - Оператори порівняння і приведення типів
 
