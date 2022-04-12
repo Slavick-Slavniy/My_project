@@ -9,9 +9,9 @@
  const grapes = 135;
  const total = apples + grapes;
 console.log(total)
-// const diff = ;
-// console.log(diff)
-// ```
+const diff = apples - grapes ;
+console.log(diff)
+
 
 // ## Example 3 - Пріоритет операторів
 
@@ -19,7 +19,7 @@ console.log(total)
 // `result`.
 
 // ```js
-// const result = 108 + 223 - 2 * 5;
+// const result = 108 + 223 - (2 * 5);
 // console.log(result);
 // ```
 
