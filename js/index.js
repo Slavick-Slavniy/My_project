@@ -1,37 +1,34 @@
 "use strict";
-// # Модуль 1. Занятя 1.
+// # Модуль 1. 
 
 // ## Example 1 - Базові математичні операції
 
 // Виведи на екран загальну кількість яблук і винограду. Різницю я та винограду
-
-
- const apples = 47;
- const grapes = 135;
- const total = apples + grapes;
-console.log(total)
-const diff = apples - grapes ;
-console.log(diff)
+//  const apples = 47;
+//  const grapes = 135;
+//  const total = apples + grapes;
+// console.log(total);
+// const diff = apples - grapes;
+// console.log(diff);
 
 
 // ## Example 3 - Пріоритет операторів
 
 // Розбери пріоритет операторів
 // `result`.
-
-// ```js
 // const result = 108 + 223 - (2 * 5);
 // console.log(result);
-// ```
+
 
 // ## Example 4 - Клас Math
 
 // Напиши код який виводить в консоль округлення вверх / вниз.Використовуй методи`Math.floor()`,
 // `Math.ceil()` і`Math.round()`.
-
-// ```js
-// const value = 27.5;
-// ```
+ const value = 27.5;
+console.log(Math.ceil(value));
+console.log(Math.floor(value));
+console.log(Math.round(value));
+console.log(Math.pow(value,3));
 
 // ## Example 5 - Шаблонні рядки
 
