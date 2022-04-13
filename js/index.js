@@ -206,5 +206,84 @@
 // console.log(makeMessage('Reactor', 8000));
 // console.log(makeMessage('Enginer', 4070));
 
+// Завдання 11
+// function calculateTotalPrice (orderedQuantity, pricePerItem) {
+//   // Change code below this line
+//   const totalPrice = orderedQuantity * pricePerItem;
 
+//   // Change code above this line
+//   return totalPrice;
+// };
+// console.log(calculateTotalPrice(5,100));
+// console.log(calculateTotalPrice(8,60));
+// console.log(calculateTotalPrice(3,400));
+// console.log(calculateTotalPrice(1,3500));
+// console.log(calculateTotalPrice(12,70));
 
+// Завдання 12
+// function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+//   // Change code below this line
+// const message = `You ordered droids worth ${(orderedQuantity * pricePerDroid) + deliveryFee} credits. Delivery (${deliveryFee} credits) is included in total price.`;
+//  // Change code above this line
+//   return message;
+// }
+// console.log(makeOrderMessage(2, 100, 50));
+// console.log(makeOrderMessage(4, 300, 100));
+// console.log(makeOrderMessage(10, 70, 200));
+
+// Завдання 13
+// function isAdult(age) {
+//   // Change code below this line
+//   const passed =(age >= 18);
+
+//   // Change code above this line
+//   return passed;
+// }
+// console.log(isAdult(20));
+// console.log(isAdult(14));
+// console.log(isAdult(8));
+// console.log(isAdult(37));
+
+// Завдання 14
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
+//   // Change code below this line
+//   const isMatch = password === 'jqueryismyjam';
+
+//   // Change code above this line
+//   return isMatch;
+// }
+// console.log(isValidPassword("mangodab3st"));
+// console.log(isValidPassword("kiwirul3z"));
+// console.log(isValidPassword("jqueryismyjam"));
+
+// Завдання 15
+// function checkAge(age) {
+//   let message;
+//   if (age >= 18) { // Change this line
+//    message = 'You are an adult';}
+//   else  {message = 'You are a minor';}
+
+//   return message;
+// }
+// console.log(checkAge(20));
+// console.log(checkAge(8));
+// console.log(checkAge(14));
+// console.log(checkAge(38));
+
+// Завдання 16
+// function checkStorage(available, ordered) {
+//   let message;
+//   // Change code below this line
+//   if (ordered > available) {message = "Not enough goods in stock!" }
+//   else { message = "Order is processed, our manager will contact you."};
+//   // Change code above this line
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+//Завдання 17
