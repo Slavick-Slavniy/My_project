@@ -286,4 +286,33 @@
 // console.log(checkStorage(200, 150));
 // console.log(checkStorage(150, 180));
 
-//Завдання 17
+// //Завдання 17
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+// // Change code below this line
+// a += 2;
+// b -= 4;
+// c *= 3;
+// d /= 10;
+
+//Завдання 18
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   // Change code below this line
+//   let totalPrice = pricePerDroid * orderedQuantity;
+//   if (totalPrice > customerCredits) {message = "Insufficient funds!";}
+//   else {message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`;}
+
+//   // Change code above this line
+//   return message;
+// }
+// console.log(makeTransaction(3000, 5, 23000));
+// console.log(makeTransaction(1000, 3, 15000));
+// console.log(makeTransaction(5000, 10, 8000));
+// console.log(makeTransaction(2000, 8, 10000));
+// console.log(makeTransaction(500, 10, 5000));
+
+//Завдання 19
