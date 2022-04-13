@@ -126,3 +126,73 @@
 
 // console.log(null || (2 && 3) || 4);
 // ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Завдання 8
+
+// function add(a, b, c) {
+//     console.log(`Addition result equals ${a + b + c}`);
+//     // Change code above this line
+// }
+// add(15, 27, 10);
+// add(10, 20, 30);
+// add(5, 10, 15);
+
+// Завдання 9
+
+// Варіант 1
+// function add(a, b, c) {
+//   // Change code below this line
+//     return a + b + c;
+//   // Change code above this line
+// }
+// add(2 + 5 + 8);
+
+// let rezult = add(15, 27, 10); // 52
+// console.log(rezult)
+
+// rezult = add(10, 20, 30); // 60
+// console.log(rezult);
+
+// rezult = add(5, 10, 15); // 30
+// console.log(rezult);
+
+// Варіант 2
+// function add(a, b, c) {
+//   // Change code below this line
+
+// return a + b + c;
+
+//   // Change code above this line
+// }
+
+// add(2, 5, 8); // 15
+
+// console.log(add(15, 27, 10));
+// console.log(add(10, 20, 30));
+// console.log(add(5, 10, 15));
+
+
+
