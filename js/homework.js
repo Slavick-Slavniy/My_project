@@ -275,3 +275,64 @@
 // console.log(checkStorage(150, 180));
 
 //Завдання 26
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   let message;
+//   // Change code below this line
+//    message = (password === ADMIN_PASSWORD) ? "Access is allowed" : "Access denied, wrong password!";
+//   // Change code above this line
+//   return message;
+// }
+// console.log(checkPassword("jqueryismyjam"));
+// console.log(checkPassword("angul4r1sl1f3"));
+// console.log(checkPassword("r3actsux"));
+
+//Завдання 27
+// function getSubscriptionPrice(type) {
+//   let price;
+//   // Change code below this line
+
+//  switch (type) { // Change this line
+//     case "starter": // Change this line
+//       price = 0; // Change this line
+//       break;
+
+//     case "professional": // Change this line
+//       price = 20; // Change this line
+//       break;
+
+//     case "organization": // Change this line
+//       price = 50; // Change this line
+//       break;
+//   }
+
+//   // Change code above this line
+//   return price;
+// }
+// console.log(getSubscriptionPrice("professional"));
+// console.log(getSubscriptionPrice("organization"));
+// console.log(getSubscriptionPrice("starter"));
+
+//Завдання 28
+function checkPassword(password) {
+  const ADMIN_PASSWORD = "jqueryismyjam";
+  let message;
+  // Change code below this line
+switch (password){
+  case null:
+  message = "Canceled by user!";
+  break;
+
+  case ADMIN_PASSWORD:
+  message = "Welcome!";
+  break;
+
+  default: 
+  message = "Access denied, wrong password!";
+}
+  return message;
+}
+console/log(checkPassword("mangohackzor"));
+console/log(checkPassword((null));
+console/log(checkPassword("polyhax"));
+console/log(checkPassword("jqueryismyjam"));
