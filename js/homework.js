@@ -370,4 +370,25 @@
 // console.log(getShippingCost("Jamaica"));
 // console.log(getShippingCost("Sweden"));
 
-//Завдання 30
+ //Завдання 30
+// function getNameLength(name) {
+//   const message = `Name ${name} is ${name.length} characters long`; // Change this line
+
+//   return message;
+// }
+// console.log(getNameLength("Poly"));
+// console.log(getNameLength("Harambe"));
+// console.log(getNameLength("Billy"));
+// console.log(getNameLength("Joe"));
+
+//Завдання 31
+const courseTopic = "JavaScript essentials";
+// Change code below this line
+
+const courseTopicLength = courseTopic.length;
+const firstElement = courseTopic[0];
+const lastElement = courseTopic[20];
+console.log(courseTopic.length);
+console.log(courseTopic[0]);
+console.log(courseTopic[20]);
+// Change code above this line
