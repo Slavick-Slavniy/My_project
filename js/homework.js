@@ -239,10 +239,13 @@
 //   const GOLD_DISCOUNT = 0.1;
 //   let discount;
 //   // Change code below this line
-//   if (discount = totalSpent >= 50000) {GOLD_DISCOUNT}
-//   else if (totalSpent >= 20000 && < 50000) {SILVER_DISCOUNT}
-//   else if (totalSpent >=5000 && < 20000) {BRONZE_DISCOUNT}
-//   else {BASE_DISCOUNT}
+//     if (totalSpent >= 50000) { discount = GOLD_DISCOUNT }
+    
+//     else if (totalSpent >= 20000) { discount = SILVER_DISCOUNT }
+    
+//     else if (totalSpent >= 5000) { discount = BRONZE_DISCOUNT }
+        
+//     else { discount = BASE_DISCOUNT }
 
 //   // Change code above this line
 //   return discount;
@@ -252,3 +255,23 @@
 // console.log(getDiscount(8250));
 // console.log(getDiscount(1300));
 // console.log(getDiscount(5000));
+// console.log(getDiscount(20000));
+// console.log(getDiscount(50000));
+
+//Завдання 25
+// function checkStorage(available, ordered) {
+// let message
+//   // Change code below this line
+
+//  message = (ordered > available) ? 'Not enough goods in stock!' : 'The order is accepted, our manager will contact you';
+  
+//   // Change code above this line
+//   return message;
+// }
+// console.log(checkStorage(100, 50));
+// console.log(checkStorage(100, 130));
+// console.log(checkStorage(200, 20));
+// console.log(checkStorage(200, 150));
+// console.log(checkStorage(150, 180));
+
+//Завдання 26
