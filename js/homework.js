@@ -463,7 +463,13 @@
 // console.log(checkForSpam("[SPAM] How to earn fast money?"));
 
 
+const fruits = ["apple","peach","pear","banana"];
+const lastElementIndex = fruits.length - 1;
+console.log(lastElementIndex)
+const lastElement = fruits[3];
+console.log(lastElement)
 
+// Change code below this line
 
 
 
