@@ -382,13 +382,40 @@
 // console.log(getNameLength("Joe"));
 
 //Завдання 31
-const courseTopic = "JavaScript essentials";
-// Change code below this line
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
 
-const courseTopicLength = courseTopic.length;
-const firstElement = courseTopic[0];
-const lastElement = courseTopic[20];
-console.log(courseTopic.length);
-console.log(courseTopic[0]);
-console.log(courseTopic[20]);
-// Change code above this line
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic[courseTopicLength - 1];
+// console.log(courseTopic.length);
+// console.log(courseTopic[0]);
+// console.log(courseTopic[courseTopicLength - 1]);
+
+//Завдання 32
+// function getSubstring(string, length) {
+//   const substring = string.slice(0,length); // Change this line
+
+//   return substring;
+// }
+// console.log(getSubstring("Hello world", 3));
+// console.log(getSubstring("Hello world", 6));
+// console.log(getSubstring("Hello world", 8));
+// console.log(getSubstring("Hello world", 11));
+// console.log(getSubstring("Hello world", 0));
+
+// Завдання 33
+function formatMessage(message, maxLength) {
+  let result;
+  // Change code below this line
+    if (maxLength >= message.length) {result = message}
+    else {result = message.slice (0, maxLength) + "..."}
+  /// Change code above this line
+  return result;
+}
+console.log(formatMessage("Curabitur ligula sapien", 16));
+console.log(formatMessage("Curabitur ligula sapien", 23));
+console.log(formatMessage("Vestibulum facilisis purus nec", 20));
+console.log(formatMessage("Vestibulum facilisis purus nec", 30));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 15));
+console.log(formatMessage("Nunc sed turpis a felis in nunc fringilla", 41));
