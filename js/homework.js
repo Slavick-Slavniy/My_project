@@ -1,3 +1,4 @@
+"use strict";
 //Завдання 8
 
 // function add(a, b, c) {
@@ -463,14 +464,81 @@
 // console.log(checkForSpam("[SPAM] How to earn fast money?"));
 
 
-const fruits = ["apple","peach","pear","banana"];
-const lastElementIndex = fruits.length - 1;
-console.log(lastElementIndex)
-const lastElement = fruits[3];
-console.log(lastElement)
-
+// const fruits = ["apple","peach","pear","banana"];
+// const lastElementIndex = fruits.length - 1;
+// const lastElement = fruits[lastElementIndex];
 // Change code below this line
+//====================================================================================================================================================================================================================================================
 
 
+ // Завдання 9
+// function getExtremeElements(array) {
+//   // Change code below this line
+//     const firstArrayElement = array[0];
+//     const lastArrayIndex = array.length - 1;
+//     const lastArrayElement = array[lastArrayIndex];
+//     return [firstArrayElement, lastArrayElement];
+// // Change code above this line
+// }
+// console.log(getExtremeElements([1, 2, 3, 4, 5]))
+// // Ви маєте повернути новий масив, в якій помістити 2 елементи. Тобто return [звернутись через індекс до першого елементу, звернутись через індекс до останнього елемента]
 
+ // Завдання 10
+// function splitMessage(message, delimeter) {
+//   let words;
+//   // Change code below this line
+//    words = message.split(delimeter);
+//   // Change code above this line
+//   return words;
+// }
+// console.log(splitMessage("Mango hurries to the train", " "));
+// console.log(splitMessage("Mango", ""));
+// console.log (splitMessage("best_for_week", "_"));
 
+// //Завдання 11
+// function calculateEngravingPrice(message, pricePerWord) {
+//    // Change code below this line
+//     let calculateWordPrice;
+//     const messageSplite =  message.split(" ");
+//     const arraylength = messageSplite.length;
+//     calculateWordPrice = arraylength * pricePerWord;
+//     return calculateWordPrice;
+// //     const rezult = (message.split(delimeter).length * pricePerWord);
+// //     return rezult;
+// //    // Change code above this line
+// }
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 10));
+// console.log(calculateEngravingPrice("JavaScript is in my blood", 20));
+// console.log(calculateEngravingPrice("Web-development is creative work", 40));
+// console.log(calculateEngravingPrice("Web-development is creative work", 20));
+
+//Завдання 12
+// function makeStringFromArray(array, delimeter) {
+//   let string;
+//   // Change code below this line
+//     string = array.join(delimeter);
+
+//   // Change code above this line
+//   return string;
+// }
+// console.log(makeStringFromArray(["Mango", "hurries", "to", "the", "train"], " "));
+// console.log(makeStringFromArray(["M", "a", "n", "g", "o"], ""));
+// console.log(makeStringFromArray(["top", "picks", "for", "you"], "_"));
+
+//Завдання 13
+function slugify(title) {
+  // Change code below this line
+    let slug;
+    let lowerCaseTitle = title.toLowerCase();
+    let lowerCaseArray = lowerCaseTitle.split(" ");
+    slug = lowerCaseArray.join("-");
+   
+    console.log(slug)
+
+     
+    // return slugTitle;
+
+  // Change code above this line
+    return slug;
+}
+console.log(slugify("Arrays for begginers"));
