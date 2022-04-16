@@ -526,19 +526,36 @@
 // console.log(makeStringFromArray(["top", "picks", "for", "you"], "_"));
 
 //Завдання 13
-function slugify(title) {
-  // Change code below this line
-    let slug;
-    let lowerCaseTitle = title.toLowerCase();
-    let lowerCaseArray = lowerCaseTitle.split(" ");
-    slug = lowerCaseArray.join("-");
+// function slugify(title) {
+//   // Change code below this line
+//     let slugString;
+//     let lowerCaseTitle = title.toLowerCase();
+//     let lowerCaseArray = lowerCaseTitle.split(" ");
+//     slugString = lowerCaseArray.join("-");
    
-    console.log(slug)
+//     // return slugTitle;
 
-     
-    // return slugTitle;
+//   // Change code above this line
+//     return slugString;
+// }
+// console.log(slugify("Arrays for begginers"));
+// console.log(slugify("English for developer"));
+// console.log(slugify("Ten secrets of JavaScript"));
+// console.log(slugify("How to become a JUNIOR developer in TWO WEEKS"));
 
-  // Change code above this line
-    return slug;
-}
-console.log(slugify("Arrays for begginers"));
+//Завдання 14
+// const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// // Change code below this line
+// const firstTwoEls = fruits.slice(0,2);
+// const nonExtremeEls = fruits.slice(1, 4);
+// const lastThreeEls = fruits.slice(2);
+// // const lastThreeEls = ;
+
+// console.log(firstTwoEls);
+// console.log(nonExtremeEls);
+// console.log(lastThreeEls);
+
+//Завдання 15
+
+
