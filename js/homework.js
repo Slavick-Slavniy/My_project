@@ -533,8 +533,7 @@
 //     let lowerCaseArray = lowerCaseTitle.split(" ");
 //     slugString = lowerCaseArray.join("-");
    
-//     // return slugTitle;
-
+//
 //   // Change code above this line
 //     return slugString;
 // }
@@ -557,5 +556,40 @@
 // console.log(lastThreeEls);
 
 //Завдання 15
+// const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+// const newClients = ['Peach', 'Houston'];
+
+// const allClients = oldClients.concat(newClients);
+// // (Change this line
+// console.log(allClients);
+
+// Завдання 16
+// function makeArray(firstArray, secondArray, maxLength) {
+//     // Change code below this line
+//     let message;
+//     const allArray = firstArray.concat(secondArray);
+//     let allArraylength = allArray.length;
+//     if (allArraylength > maxLength) {message = allArray.slice(0,maxLength)}
+//      else {message = allArray}
+//     return message;
+//     // Change code above this line
+//   }
+// console.log(makeArray(["Mango", "Poly"], ["Ajax", "Chelsea"], 3));
+// console.log(makeArray(["Mango", "Poly", "Houston"], ["Ajax", "Chelsea"], 4));
+// console.log(makeArray(["Mango"], ["Ajax", "Chelsea", "Poly", "Houston"], 3));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 2));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus"], 4));
+// console.log(makeArray(["Earth", "Jupiter"], ["Neptune", "Uranus", "Venus"], 0));
+
+// Завдання 17
+// const start = 3;
+// const end = 7;
+
+// for (let i = start; i <= end; i += 1 ) { // Change this line
+//   console.log(i);
+// }
+
+// Завдання 18
 
 
+ 
