@@ -589,7 +589,35 @@
 //   console.log(i);
 // }
 
-// Завдання 18
+// Завдання 18 ??????????????????????????
+// function calculateTotal(number) {
+//     // Change code below this line
+//     let sum = 0;
+//     for (let i = 1; i <= number; i += 1)
+//         sum += i;
+//     return sum
+// }
+// console.log(calculateTotal(1));
+// console.log(calculateTotal(3));
+// console.log(calculateTotal(7));
+// console.log(calculateTotal(18));
+// console.log(calculateTotal(24));
+// console.log(calculateTotal());
 
+// Завдання 19
+// const fruits = ['apple', 'plum', 'pear', 'orange'];
 
- 
+// for (let i = 0; i < fruits.length; i+= 1) { // Change this line
+//   const fruit = fruits[i]; // Change this line
+//   console.log(fruit);
+// }
+
+// Завдання 20
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+    total = order
+
+  // Change code above this line
+  return total;
+}
