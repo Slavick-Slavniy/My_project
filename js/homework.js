@@ -635,14 +635,21 @@
 //   for (let i = 0; i < stringArray.length; i += 1) {
 //     if (stringArray[i].length > longestMax.length) {
 //       longestMax = stringArray[i]
-//     }  
+//     }
 //   }
 //   return longestMax;
 // }
 //  console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
 //  console.log(findLongestWord("Google do a roll"));
-//  console.log(findLongestWord("May the force be with you"));     
+//  console.log(findLongestWord("May the force be with you"));
 
-
+//   // Change code above this line
+// Завдання 22
+function createArrayOfNumbers(min, max) {
+  const numbers = [];
+  // Change code below this line
+numbers.push( )
 
   // Change code above this line
+  return numbers;
+}
