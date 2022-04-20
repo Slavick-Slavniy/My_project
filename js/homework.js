@@ -645,11 +645,15 @@
 
 //   // Change code above this line
 // Завдання 22
-function createArrayOfNumbers(min, max) {
-  const numbers = [];
-  // Change code below this line
-numbers.push( )
-
-  // Change code above this line
-  return numbers;
-}
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+//   for (let i = min; i <= max; i+=1) {
+//   numbers.push(i);
+// }
+// return numbers
+//   // Change code above this line
+// }
+// console.log(createArrayOfNumbers(1, 3));
+// console.log(createArrayOfNumbers(14, 17));
+// console.log(createArrayOfNumbers(29, 34));
